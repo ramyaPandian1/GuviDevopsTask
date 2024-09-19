@@ -3,7 +3,7 @@ phases:
   build:
     commands:
       - echo Build started on 'date'
-      - docker build -t nginx-app
+      - docker build -t nginx-app AWS Cloud/pipeline/
       - docker tag nginx-app:latest ramyaashwin/nginx-app:latest
 artifacts:
   files:
