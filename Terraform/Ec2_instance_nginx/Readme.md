@@ -1,0 +1,1 @@
+IN this i need to create ec2 instance and security group to allow port 80 either for existing vpc or create on vpc,subnet also
